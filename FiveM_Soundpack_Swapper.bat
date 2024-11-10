@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 REM Set the target path
-set "TARGET_PATH=G:\SteamLibrary\steamapps\common\Grand Theft Auto V\x64\audio\sfx"
+set "TARGET_PATH=C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\x64\audio\sfx"
 
 REM Initialize counter
 set "COUNT=0"
