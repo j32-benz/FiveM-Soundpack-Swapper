@@ -4,7 +4,7 @@
 
 1. **Prepare Soundpack Folders**:
    - Create one or more folders in the same directory as the batch file.
-   - Name them descriptively (e.g., `Soundpack1`, `RealisticSounds`, `CustomPack`).
+   - Name them descriptively (e.g., `Sinners`, `Bell`, `Default`).
    - Copy your `RESIDENT.rpf` and `WEAPONS_PLAYER.rpf` files into each folder accordingly.
 
 2. **Run the Batch File**:
