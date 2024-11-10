@@ -1,4 +1,4 @@
-# Soundpack Installer Batch File
+# FiveM-Soundpack-Swapper
 
 ## How to Use
 
@@ -33,7 +33,5 @@
   ```
 
   If your GTA V installation is located elsewhere, edit the `TARGET_PATH` variable in the batch file to match your game's directory.
-
-- **Multiple Soundpacks**: You can manage multiple soundpacks by creating separate folders for each one. This allows you to switch between different soundpacks easily.
 
 ---
