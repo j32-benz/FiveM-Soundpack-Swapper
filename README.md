@@ -25,7 +25,6 @@
 
 ## Important Notes
 
-- **Copy Your RPF Files**: Before running the script, ensure that your `RESIDENT.rpf` and `WEAPONS_PLAYER.rpf` files are placed inside a folder next to the batch file.
 - **Target Path**: The default target path is set to:
 
   ```
