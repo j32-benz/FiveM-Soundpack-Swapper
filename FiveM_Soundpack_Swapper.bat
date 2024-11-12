@@ -73,19 +73,14 @@ if not exist "%SELECTED_DIR%\WEAPONS_PLAYER.rpf" (
     set "missing=1"
 )
 
-if %missing%==1 (
-    echo.
-    echo Press any key to exit...
-    pause >nul
-    exit /b
-)
-
-REM Copy the contents of the selected directory to the target path, excluding .gitkeep files
-robocopy "%SELECTED_DIR%" "%TARGET_PATH%" /E /XF .gitkeep /R:0 /W:0 /NDL /NFL /NJH >nul 2>&1
-if %errorlevel% lss 8 (
-    echo Soundpack copied successfully!
-) else (
-    echo Error copying files.
+if %missing%==0 (
+    REM Copy the contents of the selected directory to the target path, excluding .gitkeep files
+    robocopy "%SELECTED_DIR%" "%TARGET_PATH%" /E /XF .gitkeep /R:0 /W:0 /NDL /NFL /NJH >nul 2>&1
+    if %errorlevel% lss 8 (
+        echo Soundpack copied successfully!
+    ) else (
+        echo Error copying files.
+    )
 )
 
 echo.
