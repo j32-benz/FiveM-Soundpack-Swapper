@@ -1,36 +1,24 @@
 # FiveM-Soundpack-Swapper
 
-## How to Use
+## Usage
 
-1. **Prepare Soundpack Folders**:
-   - Create one or more folders in the same directory as the batch file.
-   - Name them descriptively (e.g., `Sinners`, `Bell`, `Default`).
-   - Copy your `RESIDENT.rpf` and `WEAPONS_PLAYER.rpf` files into each folder accordingly.
+1. **Set Up Soundpack Folders**:
+   - Create folders (e.g., `Sinners`, `Bell`, `Default`) in the same directory as the batch file.
+   - Place your `RESIDENT.rpf` and `WEAPONS_PLAYER.rpf` files in each folder.
 
 2. **Run the Batch File**:
-   - Double-click the batch file to execute it.
-   - A list of available soundpack directories will be displayed.
+   - Double-click to launch, and choose the soundpack by entering its number when prompted.
 
-3. **Select a Soundpack**:
-   - When prompted, enter the number corresponding to the soundpack you wish to install.
-   - Press **Enter** to confirm your selection.
+3. **Copy Files**:
+   - The script checks for the necessary files and, if found, copies them to your GTA V directory.
 
-4. **Installation**:
-   - The script will verify the presence of the required `.rpf` files.
-   - If both files are found, it will copy them to the target directory in your GTA V installation.
+4. **Finish**:
+   - You’ll receive a confirmation message; press any key to exit.
 
-5. **Completion**:
-   - Upon successful copying, a confirmation message will appear.
-   - Press any key to exit the script.
+## Important
 
-## Important Notes
-
-- **Target Path**: The default target path is set to:
+- **Target Path**: Update `TARGET_PATH` in the batch file if GTA V is installed in a different location:
 
   ```
   C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\x64\audio\sfx
   ```
-
-  If your GTA V installation is located elsewhere, edit the `TARGET_PATH` variable in the batch file to match your game's directory.
-
----
